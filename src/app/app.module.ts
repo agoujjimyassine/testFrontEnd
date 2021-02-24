@@ -8,6 +8,8 @@ import { AdministratifComponent } from './administratif/administratif.component'
 import { AdresseComponent } from './adresse/adresse.component';
 import { ResponsablesComponent } from './responsables/responsables.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTableModule } from '@angular/material';
+import { EtablissementsComponent } from './etablissements/etablissements.component';
 
 @NgModule({
   declarations: [
@@ -15,11 +17,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProfilComponent,
     AdministratifComponent,
     AdresseComponent,
-    ResponsablesComponent
+    ResponsablesComponent,
+    EtablissementsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatTableModule,
     BrowserAnimationsModule
   ],
   providers: [],
