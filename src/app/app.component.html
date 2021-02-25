@@ -1,47 +1,71 @@
-<form>
+<div class="container-fluid globalClass">
 
-  <div class="container-fluid">
+  <app-navigation></app-navigation>
 
-    <div class="row justify-content-center firstRow">
-      <div class="col-xs-10 col-sm-10 col-md-10">
-        <h3>Profil Organisation</h3>
-      </div>
+  <app-image></app-image>
+
+  <div class="card">
+    <div class="card-body">
+
+      <form>
+
+        <div class="row justify-content-center firstRow">
+          <div class="col-xs-10 col-sm-10 col-md-10">
+            <h3>Profil Organisation</h3>
+          </div>
+        </div>
+
+        <app-profil></app-profil>
+
+        <div class="row justify-content-center hrClass">
+          <div class="col-xs-10 col-sm-10 col-md-10">
+            <hr>
+          </div>
+        </div>
+
+        <app-administratif></app-administratif>
+
+        <div class="row justify-content-center hrClass">
+          <div class="col-xs-10 col-sm-10 col-md-10">
+            <hr>
+          </div>
+        </div>
+
+        <app-adresse></app-adresse>
+
+        <div class="row justify-content-center hrClass">
+          <div class="col-xs-10 col-sm-10 col-md-10">
+            <hr>
+          </div>
+        </div>
+
+        <app-responsables></app-responsables>
+
+        <div class="row justify-content-center hrClass">
+          <div class="col-xs-10 col-sm-10 col-md-10">
+            <hr>
+          </div>
+        </div>
+
+        <app-etablissements></app-etablissements>
+
+        <div class="row justify-content-center hrClass">
+          <div class="col-xs-10 col-sm-10 col-md-10">
+            <hr>
+          </div>
+        </div>
+
+        <div class="row justify-content-center hrClass">
+          <div class="col-xs-10 col-sm-10 col-md-10">
+            <button type="button" class="btn btn-secondary"
+              style="margin-right: 20px; margin-left: 70%;">Annuler</button>
+            <button type="button" class="btn btn-primary">Enregistrer</button>
+          </div>
+        </div>
+
+      </form>
+
     </div>
-
-    <app-profil></app-profil>
-
-    <div class="row justify-content-center hrClass">
-      <div class="col-xs-10 col-sm-10 col-md-10">
-        <hr>
-      </div>
-    </div>
-
-    <app-administratif></app-administratif>
-
-    <div class="row justify-content-center hrClass">
-      <div class="col-xs-10 col-sm-10 col-md-10">
-        <hr>
-      </div>
-    </div>
-
-    <app-adresse></app-adresse>
-
-    <div class="row justify-content-center hrClass">
-      <div class="col-xs-10 col-sm-10 col-md-10">
-        <hr>
-      </div>
-    </div>
-
-    <app-responsables></app-responsables>
-
-    <div class="row justify-content-center hrClass">
-      <div class="col-xs-10 col-sm-10 col-md-10">
-        <hr>
-      </div>
-    </div>
-
-    <app-etablissements></app-etablissements>
-
   </div>
 
-</form>
+</div>

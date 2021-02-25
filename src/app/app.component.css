@@ -6,3 +6,12 @@
 .hrClass {
   margin-top: 10px;
 }
+
+.globalClass {
+  background-color: #0014ff42;
+}
+
+.card {
+  margin-left: 10%;
+  margin-right: 10%;
+}

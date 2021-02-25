@@ -10,6 +10,9 @@ import { ResponsablesComponent } from './responsables/responsables.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material';
 import { EtablissementsComponent } from './etablissements/etablissements.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { NavigationComponent } from './navigation/navigation.component';
+import { ImageComponent } from './image/image.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +21,15 @@ import { EtablissementsComponent } from './etablissements/etablissements.compone
     AdministratifComponent,
     AdresseComponent,
     ResponsablesComponent,
-    EtablissementsComponent
+    EtablissementsComponent,
+    NavigationComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatTableModule,
+    AngularFontAwesomeModule,
     BrowserAnimationsModule
   ],
   providers: [],

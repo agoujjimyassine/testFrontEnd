@@ -2,3 +2,11 @@
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
+#table {
+  border-spacing: 110px 0px;
+}
+
+.row {
+  margin-top: 10px;
+}

@@ -17,7 +17,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class EtablissementsComponent implements OnInit {
 
-  displayedColumns: string[] = ['nom', 'lieu'];
+  displayedColumns: string[] = ['nom', 'lieu', 'deleteAndEdit'];
   dataSource = ELEMENT_DATA;
 
   constructor() { }
