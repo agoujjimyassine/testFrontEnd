@@ -1,0 +1,8 @@
+.roundedImage {
+  overflow: hidden;
+  -webkit-border-radius: 33px;
+  -moz-border-radius: 33px;
+  border-radius: 33px;
+  width: 60px;
+  height: 60px;
+}
